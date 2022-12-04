@@ -2,7 +2,8 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.List;
-public class Main{
+
+public class Maina {
     /* Proceso de desestructurar el problema:
      * Leer el archivo línea por línea
                 Esto conlleva lo siguiente:
