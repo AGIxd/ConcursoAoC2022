@@ -7,12 +7,11 @@ public class Mainb {
      * Leer el archivo línea por línea
                 Esto conlleva lo siguiente:
                 * Sumar todos los números hasta encontrar un salto de línea
-                * En cuyo caso comparamos con max
-     * Crear una variable llamada max
+                * Comparamos con las variables max1, max2 y max3.
+     * Crear tres variables llamadas max1, max2 y max3.
      * Bucle for:
-            * Si la siguiente pposición es mayor que max, ahora max se convierte en esa posición
-            * Hacer eso hasta array.length-1
-     * Devolver max
+            * Si la siguiente posición es mayor que max1, max2 y/o max3, reordenador max1, max2, max3 a sus respectivas nuevas posiciones
+     * Devolver max1+max2+max3
      * :)
      */
 
@@ -41,7 +40,7 @@ public class Mainb {
                     calories += Integer.parseInt(line);
                 }
             }
-            System.out.print("max calories: " +(caloriesMax1 + caloriesMax2 + caloriesMax3));
+            System.out.print("Max calories: " +(caloriesMax1 + caloriesMax2 + caloriesMax3));
         }
         catch (IOException e) {
             e.printStackTrace();

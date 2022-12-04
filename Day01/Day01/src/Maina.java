@@ -8,11 +8,10 @@ public class Maina {
      * Leer el archivo línea por línea
                 Esto conlleva lo siguiente:
                 * Sumar todos los números hasta encontrar un salto de línea
-                * En cuyo caso comparamos con max
+                * Comparamos con la variable max
      * Crear una variable llamada max
      * Bucle for:
-            * Si la siguiente pposición es mayor que max, ahora max se convierte en esa posición
-            * Hacer eso hasta array.length-1
+            * Si la siguiente posición es mayor que max, ahora max se convierte en esa posición
      * Devolver max
      * :)
      */
@@ -32,7 +31,7 @@ public class Maina {
                     calories += Integer.parseInt(line);
                 }
             }
-            System.out.print("max calories: " +caloriesMax);
+            System.out.print("Max calories: " +caloriesMax);
         }
         catch (IOException e) {
             e.printStackTrace();
